@@ -41,7 +41,7 @@ h1 {
     margin-top: 50px;
     border-radius: 8px;
     height: 1000px;
-    background-color: cornflowerblue;
+    background-color: white;
 }
 
 /* app header */
@@ -75,3 +75,50 @@ h1 {
 }
 
 /*app main*/
+#newtask,
+#today,
+#upcoming {
+    padding: 40px;
+    padding-bottom: 0px;
+}
+
+section > p{
+    line-height: 25px;
+}
+
+/*category*/
+.category {
+    color: white;
+    padding: 6px;
+    border-radius: 10px;
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+.editorial_category {
+    background-color: #47adf1;
+}
+
+.q1goals_category {
+    background-color: #9c72e4;
+}
+
+.recruiting_category {
+    background-color: #64c0a9;
+}
+
+.mobile_category {
+    background-color: #f29e33;
+}
+
+.website_category{
+    background-color: #d863a1;
+}
+
+.sales_category{
+    background-color: #b0c926;
+}
+
+.task {
+    margin-top: 10px;
+}
