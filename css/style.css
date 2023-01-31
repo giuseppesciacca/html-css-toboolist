@@ -19,8 +19,7 @@ header {
     background-color: white;
 }
 
-#logo,
-h1 {
+#logo, h1 {
     position: absolute;
     top: 15px;
 }
@@ -35,14 +34,6 @@ h1 {
 }
 
 /* MAIN */
-#container {
-    width: 1000px;
-    margin: auto;
-    margin-top: 50px;
-    border-radius: 8px;
-    height: 1000px;
-    background-color: white;
-}
 
 /* app header */
 
@@ -51,6 +42,10 @@ h1 {
     background-color: white;
     padding: 8px;
     border-radius: 8px 8px 0 0;
+    width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    color: #41454f;
 }
 
 #button_container {
@@ -75,6 +70,15 @@ h1 {
 }
 
 /*app main*/
+#app_main {
+    width: 1000px;
+    margin: auto;
+    margin-top: 3px;
+    border-radius: 0 0 8px 8px;
+    background-color: white;
+    color: #41454f;
+}
+
 #newtask,
 #today,
 #upcoming {
@@ -82,8 +86,9 @@ h1 {
     padding-bottom: 0px;
 }
 
-section>p {
+.task {
     line-height: 25px;
+    margin-top: 10px;
 }
 
 /*checkmark + x*/
@@ -134,8 +139,4 @@ section>p {
 
 .sales_category {
     background-color: #b0c926;
-}
-
-.task {
-    margin-top: 10px;
 }
