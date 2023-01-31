@@ -19,7 +19,8 @@ header {
     background-color: white;
 }
 
-#logo, h1 {
+#logo,
+h1 {
     position: absolute;
     top: 15px;
 }
@@ -86,11 +87,15 @@ h1 {
     padding: 20px 40px 0px 40px;
 }
 
-.section{
+.section {
     margin-bottom: 10px;
 }
 
-.task {
+ul {
+    list-style-type: none;
+}
+
+li {
     line-height: 25px;
     margin-bottom: 10px;
 }
