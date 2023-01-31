@@ -82,8 +82,25 @@ h1 {
     padding-bottom: 0px;
 }
 
-section > p{
+section>p {
     line-height: 25px;
+}
+
+/*checkmark + x*/
+.checkmark {
+    color: #5dbca4;
+    border-radius: 100%;
+    border: 1px solid #5dbca4;
+    padding: 1px 5px;
+    margin-right: 10px;
+}
+
+.multiplicationx {
+    color: red;
+    border-radius: 100%;
+    border: 1px solid red;
+    padding: 1px 5px;
+    margin-right: 10px;
 }
 
 /*category*/
@@ -111,11 +128,11 @@ section > p{
     background-color: #f29e33;
 }
 
-.website_category{
+.website_category {
     background-color: #d863a1;
 }
 
-.sales_category{
+.sales_category {
     background-color: #b0c926;
 }
 
